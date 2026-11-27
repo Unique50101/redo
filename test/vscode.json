@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/microsoft/vscode/pull/350598",
+  "title": "sessions list: fix: reset recycled section icon colors",
+  "base": "9ffac133344d2fcf5e71719b84f5e85d9caf3e7b",
+  "head": "032b5b8b8f87d9c58f33a8f62d68b4fcf72cd039",
+  "files": [
+    {
+      "filename": "src/vs/sessions/contrib/sessions/test/browser/sessionsList.test.ts",
+      "status": "modified"
+    },
+    {
+      "filename": "src/vs/workbench/contrib/sessions/browser/views/sessionsListRenderers.ts",
+      "status": "modified"
+    }
+  ],
+  "status": "ahead",
+  "comparison": "https://api.github.com/repos/microsoft/vscode/compare/9ffac133344d2fcf5e71719b84f5e85d9caf3e7b...032b5b8b8f87d9c58f33a8f62d68b4fcf72cd039"
+}

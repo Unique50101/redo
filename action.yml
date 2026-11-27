@@ -1,0 +1,16 @@
+name: Redo Manual QA
+description: Remember manual QA sign-offs and reopen the checks affected by the next push.
+author: Unique50101
+branding:
+  icon: repeat
+  color: purple
+inputs:
+  checks:
+    description: JSON array of checks with id, label and repository-relative paths.
+    required: true
+  token:
+    description: GitHub token used to read PRs and maintain the checklist.
+    default: ${{ github.token }}
+runs:
+  using: node24
+  main: action.mjs
